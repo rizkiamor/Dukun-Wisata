@@ -1,0 +1,451 @@
+body{
+            	font-family: arial;
+            	font-size: 15px;
+            	background: url("../img/bg.jpg") no-repeat;
+            	background-size: cover;
+}
+a{
+            	cursor: pointer;
+            	text-decoration: none;
+}
+a:link {      color: #727072;}
+a:visited {   color: #727072; }
+a:hover {     color: #fff;}
+a:link {      text-decoration: none;}
+a:visited {   text-decoration: none;}
+a:hover {     text-decoration: none;}
+a:active {    text-decoration: none;}
+ul {
+              text-align: left;
+              transform-style: flat;
+              display: inline;
+              margin: 0;
+              padding: 1px 1px 1px 0;
+              list-style: none;
+              -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+              -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+
+}
+ul li {
+              font: bold 25px/28px sans-serif;
+              display: inline-block;
+              margin-right: -4px;
+              position: relative;
+              padding: 15px 20px;
+              background: #e2cfe2;
+              width: 85%;
+              cursor: pointer;
+              -webkit-transition: all 0.2s;
+              -moz-transition: all 0.2s;
+              -ms-transition: all 0.2s;
+              -o-transition: all 0.2s;
+              transition: all 0.2s;
+              font-family: lane;
+              font-weight: bold;
+}
+ul li:hover {
+              background: #b845de;
+              color: #fff;
+}
+ul li ul {
+              padding: 0px;
+              position: absolute;
+              top: 105px;
+              left: 0;
+              width: 250px;
+              -webkit-box-shadow: none;
+              -moz-box-shadow: none;
+              box-shadow: none;
+              display: none;
+              opacity: 0;
+              visibility: hidden;
+              -webkit-transiton: opacity 0.2s;
+              -moz-transition: opacity 0.2s;
+              -ms-transition: opacity 0.2s;
+              -o-transition: opacity 0.2s;
+              -transition: opacity 0.2s;
+            }
+            ul li ul li {
+              background: #555;
+              display: block;
+              color: #fff;
+              text-shadow: 0 -1px 0 #000;
+            }
+            ul li ul li:hover { background: #80d9e9; }
+            ul li:hover ul {
+              display: block;
+              opacity: 1;
+              visibility: visible;
+            }
+
+            ::-webkit-scrollbar {
+                width: 8px; height: 6px;
+            }
+
+            ::-webkit-scrollbar-track {
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                border-radius: 10px;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+            }
+
+.login{
+              padding-top: 15%;
+              padding-right: 6%;}
+.formlogin{
+              background-color: #fff;
+              padding: 20px 30px 10px 30px;
+              position:opacity: 0.10;
+              float: right;
+              border-radius: 10px 50px 10px 10px;
+              background: transparent: 0.10;
+              box-shadow: 0px 0px 2px #ddd;}
+.dukun{
+              float: left;
+              font-family: Roboto-Light;
+              font-size: 30px;
+              color: #000;
+              background-color: #fff;
+              padding: 15px 15px 15px 15px;
+              border-radius: 10px 70px 10px 10px;
+              padding-left: 5%;}
+.pasien{
+              float: right;
+              font-family: Roboto-Light;
+              font-size: 30px;
+              padding: 15px 30px 15px 30px;
+              background-color: #42d61b;
+              border-radius: 20px 20px 60px 20px;
+              color: #fff;}
+.spasien{
+              padding-right: 35%;}
+#skat{
+              padding-bottom: 4%;
+              padding-left: 30%;}
+.skat{
+              padding-top: 10%;}
+.daftar{
+             float: left;}
+.ttext{
+             font-family: Rounded_Elegance;
+             float: center;
+             text-align: center;
+             padding-top: 7%;
+             padding-bottom: 5%;
+             font-size: 30px;}
+.formdaftar{
+              float: left;
+              background-color: #fff;
+              width: 60%;
+              height: 100%;}
+.userdaftar{
+              background-color: #fff;
+              width: 30%;
+              height: 100%;
+              float: right;}
+.main{
+              padding-left: 5%;
+              padding-right: 5%;}
+.circular {
+              width: 65px;
+              height: 65px;
+              border-radius: 70px;
+              -webkit-border-radius: 70px;
+              -moz-border-radius: 70px;
+              align-items: center;
+              background: url("../img/a.jpg") no-repeat;
+              float: left;
+          }
+.img-circle {
+              width: 65px;
+              height: 65px;
+              border-radius: 70px;
+              -webkit-border-radius: 70px;
+              -moz-border-radius: 70px;
+              align-items: center;
+              background: url("../img/a.jpg") no-repeat;
+              float: left;
+              margin: 10 10 10 10
+              }
+.fnama{       float: none;
+              position: relative;
+              align-items: center;
+              padding-left: 22%;
+              padding-top: 1.5%;
+              font-family: lane;
+              font-size: 24px;
+              font-weight: bolder;
+          }
+.knama{
+              font-family: Roboto-Light;
+              font-size: 13px;
+              padding-left: 22.5%;
+          }
+.tdaftar{
+              font-family: Roboto-Thin;
+              font-size: 30px;
+              text-align: center;
+              padding: 20 10 10 10;
+              color: #000;
+              font-weight: bold;}
+.iskat{
+              padding-top: 5%;
+              padding-bottom: 2%;
+              padding-left: 3%;
+          }
+.menus    {
+              background-color: #574f57;
+              width: 20%;
+              height: 100%;
+              float: left;
+              margin: 3px auto auto auto;
+          }
+.view     {
+              background-color: #ececec;
+              width: 78%;
+              height: 100%;
+              float: right;
+              margin: 0 9 0 10;
+          }
+.index{
+              float: none;
+              margin: 18 5 0 6;
+              font-family: Roboto-Light;
+              font-weight: bolder;
+              font-size: 40px;
+              font-style: oblique;
+              color: #be95be;
+      }
+.mainmenu {
+              margin: 30 0 0 0;
+              border-color: #fff;
+            }
+.footer {
+              font-family: Roboto-Light;
+              margin-top: 61%;
+              padding: 1rem;
+              background-color: #e1b9dd;
+              text-align: center;
+            }
+.welcome{
+              background-color: #be8fc1;
+              width: 98%;
+              height: 30%;
+              margin: 10 10 5 10;
+          }
+.imron{
+              font-family: Rounded_Elegance;
+              font-size: 70px;
+              text-align: center;
+              position: relative;
+              padding-top: 5%;
+              color: d8c0da;
+            }
+.kategori   {
+               background-color: #d25ada;
+               font-family: Roboto-Regular; font-weight: bold;
+               font-size: 20px;
+               width: 27%;
+               height: auto;;
+               float: left;
+               margin: 15 10 10 10;
+               text-align: center;
+            }
+.berita_baru   {
+               background-color: #d25ada;
+               font-family: Roboto-Regular; font-weight: bold;
+               font-size: 20px;
+               width: 34%;
+               height: auto;;
+               display: inline-block;
+               margin: 15 0 0 0;
+               text-align: center;
+             }
+.berita_terbaik   {
+              background-color: #d25ada;
+              font-family: Roboto-Regular; font-weight: bold;
+              font-size: 20px;
+              height: auto;;
+              width: 35%;
+              float: right;
+              margin: 15 10 0 0;
+              text-align: center;
+              }
+.text{
+              margin: 10 0 10 0;
+              color: #f4cdf6;
+            }
+.hskat      {
+              background-color: #fff;
+              width: 100%;
+              height: 1%;
+            }
+.a_kategori   {
+             font-family: Roboto-Regular;
+             text-align: center;
+             font-size: 20px;
+              }
+.a_berita {
+             font-size: 20px;
+          }
+.a_beribar {
+             font-size: 20px;
+          }
+table, td, th {
+              border-bottom: 1px solid #fff;
+              text-align: left;
+              font-family: Roboto-Regular;
+              font-weight: normal;
+              color: #fff;
+          }
+
+table {
+              border-collapse: collapse;
+              width: 100%;
+          }
+
+th, td {
+              padding: 15px;
+          }
+.mkategori{    background-color: none;
+              margin: 10 10 10 10;
+              width: 98%;
+              height: 80%;
+          }
+.wkategori{   background-color: #c894c5 ;
+              float: right;
+              width: 80%;
+              height: 12%;
+              margin: 10 10 10 10;
+          }
+.tkategori {  margin: 10 10 10 10;
+              font-family:Rounded_Elegance ;
+              font-size: 38px;
+              color:#857d84;
+              float: right;
+            }
+.akategori{   background-color: #6a5868;
+              float: left;
+              width: 50%;
+              margin: 10 10 10 10;
+              height: 70%;
+              overflow: scroll;
+              overflow-x: hidden;
+          }
+.bkategori{   background-color: #6a5868;
+              float: right;
+              width: 45%;
+              margin: 10 10 10 10;
+              height: 50%;
+          }
+.ikategori{
+
+          }
+.usera{       background-color: #fff;
+              width: 98.5%;
+              margin: 10 10 10 10;
+          }
+.kiuser{      background-color: #857d84;
+              float: left;
+              width: 55%;
+              height: 80% ;
+              margin: 10 10 10 10;
+              overflow: scroll;
+              overflow-x: hidden;
+          }
+.kauser{      background-color: #6a5868;
+              float: right;
+              width: 40%;
+              height: 50%;
+              margin: 10 10 10 10;
+          }
+.wuser{       background-color: #c894c5 ;
+              float: right;
+              width: 80%;
+              height: 9%;
+              margin: 10 10 10 10;
+
+}
+.tuser {      margin: 10 10 10 10;
+              font-family:Rounded_Elegance ;
+              font-size: 38px;
+              color:#f7e4f6 ;
+              float: right;
+              }
+.fuser{       color: #fee8fc;
+              margin: 20 20 10 20;
+              font-family:lane ;
+              font-size: 30px;
+              font-weight: bold;
+              text-align: center;
+        }
+.kmenu{       background-color: #ee24e7;
+              padding: 5 7 5 10;
+              border-radius: 10px 10px 10px 10px;
+          }
+.ksaran{      background-color: #fff;
+              width: 98.5%;
+              margin: 10 10 10 10;
+        }
+.wksaran{      background-color: #c894c5 ;
+              float: right;
+              width: 80%;
+              height: 10%;
+              margin: 10 10 10 10;
+          }
+.aksaran{     background-color: #857d84;
+              float: left;
+              height: 80% ;
+              width: 96%;
+              margin: 10 10 10 10;
+              overflow: scroll;
+              overflow-x: hidden;
+        }
+.akisi{       background-color: #none;
+              font-family: ;
+              font-size: 30px;
+              color: #fff;
+              margin: 10 10 10 10;
+      }
+.bkisi{       background-color: #c6acc8;
+              margin: 10 10 10 10;
+        }
+.berita{      background-color: #857d84;
+              overflow-y: scroll;
+              width: 50%;
+              height: 85%;
+              float: left;
+              margin: 10 10 10 10;
+}
+.kberita{     background-color: #dba8fc;
+              width: 45%;
+              height: 68%;
+              float: left;
+              margin: 10 10 10 10;
+            }
+.tfoto    {   background-color: #FFF;
+              padding: 10 10 10 10;
+              margin-top: 80px;
+              }
+.bfoto       {background-color:#none;
+
+            }
+.fkiri {     float: left;
+              background-color: #fff;
+              height: 50%;
+              width: 45%;
+              padding: 10 10 10 10;}
+.fkanan{     background-color: #d9a5e5;
+             margin-right: 20px;
+             float: right;
+             width: 50%;
+             height: 97%;
+             overflow-y: scroll;
+}
+tampilfoto{ background-color: #fff;
+            width: 30%;
+            }

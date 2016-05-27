@@ -1,0 +1,270 @@
+body {
+  background-color: #ae60b5;
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 0px 0px 0px;
+  font-size: 13px;
+  text-align: center;
+  background: none;
+}
+
+ul {
+  text-align: center;
+
+  margin: 0;
+  padding: 1px 1px 1px 0;
+  list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+}
+ul li {
+  font: bold 12px/18px sans-serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul li:hover {
+  background: #38d3e1;
+  color: #none;
+}
+ul li ul {
+  padding: 0px;
+  position: absolute;
+  top: 105px;
+  left: 0;
+  width: 250px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li {
+  background: #555;
+  display: block;
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover { background: #80d9e9; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* warna link */
+a:link {
+    color: black;}
+a:visited {
+    color: black; }
+a:hover {
+    color: #fff;}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* menu - */
+.view{        width: 100%;
+              height: 83%;
+              background-color: #fff;
+              float: left;
+              margin: 75 0 0 0;
+              overflow-y: scroll;
+          }
+.mainmenu {   background-color: #694e6b;
+              padding: 15px 0 15px 0;
+              position: absolute;
+              right: 0;
+              top: 0;
+              left: 0;
+
+}
+.index  {     float: left;
+              margin: 15 0 0 50;
+              font-family: Rounded_Elegance ;
+              font-size: 25px;
+              font-weight: bold;
+              color: #fff;}
+.index:hover {
+              color: #ea8bf3;
+              }
+
+.hkiri{ float: left;
+        margin-left: 10px;
+
+}
+.hkanan{ float: right;
+
+}
+.foto1{ background-color: #e239a4;
+
+}
+.kfoto1{  font-family:Roboto-Light ;
+          font-size: 35px;
+          font-weight: bold;
+          margin: 10 50 10 20;
+          padding-bottom: 10px;
+          color: #e8d7e2;
+          text-align: left;}
+.kfoto2{  font-family:Roboto-Light ;
+          font-size: 15px;
+          font-weight: bold;
+          margin: 10 50 10 20;
+          padding-bottom: 10px;
+          color: #e8d7e2;
+          text-align: left;}
+.kfoto3  {font-family:Roboto-Light ;
+          font-size: 8px;
+          font-weight: bold;
+          margin: 5 10 1 20;
+          padding-bottom: 4px;
+          color: #e8d7e2;
+          text-align: left;}
+.foto2{   margin: 0 150 0 10;
+          background-color: #e239a4;
+
+
+}
+.foto3{  margin: 0 0 0 10;
+         background-color: #e239a4;
+         width: 45.5%;
+}
+
+.ksaran{      background-color: #fff;
+              width: 98.5%;
+              margin: 10 10 10 10;
+        }
+.wksaran{      background-color: #c894c5 ;
+              float: right;
+              width: 80%;
+              height: 10%;
+              margin: 10 10 10 10;
+          }
+.aksaran{     background-color: #857d84;
+              float: left;
+              height: 97% ;
+              width: 50%;
+              margin: 10 10 10 10;
+              overflow: scroll;
+              overflow-x: hidden;
+        }
+.akisi{       background-color: #none;
+              font-family: ;
+              font-size: 30px;
+              color: #fff;
+              margin: 10 10 10 10;
+              text-align: left;
+              }
+.akkanan{     background-color: #857d84;
+              float: right;
+              height: 50% ;
+              width: 40%;
+              margin: 10 10 10 10;
+              overflow: scroll;
+              overflow-x: hidden;}
+.kibaca{      width: 36%;
+              background-color: #;
+              height: auto;
+              float: left;
+              }
+/*footer*/
+
+.footer{  position: absolute;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          padding: 10px 10px 10px 10px;
+          background-color: #694e6b;
+          color: #fff;
+          text-align: center;}
+.bmenu{background-color: #786; padding: 15px 12px 15px 12px; font-family: arial; font-size: 11px; font-weight: bold; vertical-align: inherit;}
+.bmenu:hover {
+  background: #38d3e1;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 8px; height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+.fuser{       color: #fee8fc;
+              margin: 20 20 10 20;
+              font-family:lane ;
+              font-size: 30px;
+              font-weight: bold;
+              text-align: center;
+        }
+.imgbaca{     width: 50%;
+              height: 50%;
+              float: left;
+              margin: 10 10 10 10;
+
+}
+.tglbaca{    font-family:Rounded_Elegance ;
+             font-weight: bold;
+             font-size: 20px;
+             text-align: left;
+             margin: 10 10 10 10;
+
+}
+.penulis{    font-family:Rounded_Elegance ;
+             font-weight: bold;
+             font-size: 20px;
+             text-align: left;
+             margin: 10 10 10 10;
+
+}
+.ktgbaca{    font-family:Rounded_Elegance ;
+             font-weight: bold;
+             font-size: 20px;
+             text-align: left;
+             margin: 10 10 10 10;
+
+}
+.kabaca{    background-color: #none;
+            width: 62%;
+            height: 97%;
+            margin: 10 10 10 10;
+            float: right;
+            font-size: 15px;
+            font-family: Roboto-Regular;
+            text-align: left;
+
+}

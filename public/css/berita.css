@@ -1,0 +1,58 @@
+body {
+	font-family: 'Raleway', Sans-serif;
+	padding-top: 8px;
+}
+.container {
+	width: 90%;
+	padding: 0px 15px;
+	margin: 0px auto;
+}
+
+.content-columns {
+	list-style: none;
+ width: 100%;
+	-moz-column-count: 4;
+  	-webkit-column-count: 4;
+  	column-count: 4;
+
+  	-webkit-column-gap: 15px;
+  	-moz-column-gap: 15px;
+  	column-gap: 15px;
+
+
+}
+
+.boxeda {
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 1px solid #861fc7;
+	margin-bottom: 30px;
+	overflow: hidden;
+ 	display:inline-block;
+	-webkit-column-break-inside:avoid;
+	-moz-column-break-inside:avoid;
+	column-break-inside:avoid;
+}
+
+.boxeda img {
+	width: 100%;
+}
+
+.boxeda .description {
+	padding: 15px;
+	margin-top: 5px;
+}
+
+.boxeda .description h1 {
+	font-size: 16px;
+}
+
+.boxeda .description p {
+	font-size: 14px;
+	line-height: 21px;
+}
+.cberita{
+	float: right;
+	overflow-y: scroll;
+	height: 83%;
+}
